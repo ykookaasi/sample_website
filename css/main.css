@@ -1,0 +1,56 @@
+.nav-menu {
+	text-align: right;
+}
+
+.nav-spacing {
+	margin: 0 0 0 10px; 
+	text-decoration: none;
+	color: blue;
+}
+
+.image-link {
+	text-decoration: none;
+}
+
+.header {
+	text-align: center; 
+	margin: 0 0 80px;
+}
+
+.moby-whale-pic {
+	display: block; 
+	margin: 0 auto;
+}
+
+#founders {
+
+}
+
+#main-nav {
+	
+}
+
+
+.moby-article {
+	width: 500px; 
+	margin: 20px auto; 
+	padding: 30px; 
+	background-color: #fafafa;
+ } 
+
+ .moby-book-pic {
+ 	float: left;
+ 	margin-right: 40px;
+ }
+
+ .moby-quote {
+ 	font-style: italic;
+ 	font-size: 20px;
+ }
+
+ .call-me-ishmael {
+ 	font-style: normal;
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	color: #cccccc;
+ }
