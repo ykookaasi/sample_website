@@ -6,12 +6,12 @@
   </head>
   
   <body>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>     
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none; color: blue;">HTML Tags</a>      
+      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none; color: blue;">Moby Dick</a>
     </div>
-      
+
     <header>
       <h1>Important <span>HTML</span>tags</h1>
     </header>
@@ -35,9 +35,7 @@
     </div>
 
     
-    <div>
-      <h2>Block Elements</h2>
-    </div>
+    <h2>Block-level Elements</h2>
 
     <div>
       <table>
@@ -53,6 +51,11 @@
         </tr>
         <tr>
           <td><code>p</code></td>
+          <td>paragraph</td>
+          <td>include a paragraph</td>
+        </tr>
+        <tr>
+          <td><code>table</code></td>
           <td>table</td>
           <td>include a table</td>
         </tr>
@@ -74,20 +77,32 @@
         <tr>
           <td><code>ol</code></td>
           <td>ordered list</td>
-          <td>list elements in numbered sequence</td>
+          <td>lists elements in numbered sequence</td>
         </tr>
         <tr>
           <td><code>ul</code></td>
           <td>unordered list</td>
-          <td>list elements</td>
+          <td>lists elements</td>
         </tr>      
+        <tr>
+          <td><code>div</code></td>
+          <td>document division</td>
+          <td>defines division or a section</td>
+        </tr> 
+        <tr>
+          <td><code>header</code></td>
+          <td>section/page header</td>
+          <td>defines header</td>
+        </tr>
+        <tr>
+          <td><code>blockquote</code></td>
+          <td>long quotation</td>
+          <td>indicate quotation</td>
+        </tr>    
       </table>
     </div>
 
-    <div>
-      <h2>Inline Elements</h2>
-    </div>
-    
+    <h2>Inline Elements</h2>
 
     <div>
       <table>
@@ -137,11 +152,79 @@
           <td><code>li</code></td>
           <td>list item</td>
           <td>list items</td>
-          <td><code>&lt;li&gt;item&lt;/li&gt;</code></code></td>
-          <td><li>item</li></td>
+          <td><code>&lt;li&gt;item a&lt;/li&gt;&lt;li&gt;item b&lt;/li&gt;</code></code></td>
+          <td><li>item a</li><li>item b</li></td>
+        </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td>span</td>
+          <td>mark up part of text</td>
+          <td><code>&lt;span style="color: blue;"&gt;blue&lt;/span&gt; eyes.</code></code></td>
+          <td><span style="color:blue">blue</span> eyes.</p></td>
         </tr>
       </table>
     </div>
 
+  <h2>Document Tags</h2>
+
+  <div>
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td><code>&lt;!DOCTYPE html&gt;</code></td>
+        <td>doctype</td>
+        <td>specifies version of doc HTML</td>
+      </tr>  
+      <tr>
+        <td><code>&lt;html&gt;</code></td>
+        <td>html</td>
+        <td>represents the root of an HTML document</td>
+      </tr>
+      <tr>
+        <td><code>&lt;head&gt;</code></td>
+        <td>head element</td>
+        <td>container for metadata</td>
+      </tr>
+      <tr>
+        <td><code>&lt;title&gt;</code></td>
+        <td>title element</td>
+        <td>defines title of the document</td>
+      </tr>
+      <tr>
+        <td><code>&lt;body&gt;</code></td>
+        <td>body element</td>
+        <td>defines document body</td>
+      </tr>
+      <tr>
+        <td><code>&lt;meta&gt;</code></td>
+        <td>meta element</td>
+        <td>specifies metadata</td>
+      </tr>    
+      <tr>
+        <td><code>&lt;style&gt;</code></td>
+        <td>style element</td>
+        <td>used to define style info</td>
+      </tr>   
+      <tr>
+        <td><code>&lt;link&gt;</code></td>
+        <td>link element</td>
+        <td>link to external style sheets</td>
+      </tr>   
+      <tr>
+        <td><code>&lt;script&gt;</code></td>
+        <td>script element</td>
+        <td>used to define client-side JavaScripts</td>
+      </tr>     
+      <tr>
+        <td><code>&lt;base&gt;</code></td>
+        <td>base element</td>
+        <td>specifies the base URL/target for all relative URLs</td>
+      </tr>  
+    </table>
+  </div>
   </body>
 </html>
